@@ -4,6 +4,8 @@ import { useState } from "react";
 import * as Excel from "exceljs";
 import { saveAs } from "file-saver";
 
+import logo from "../../src/app/assets/logo.png";
+
 interface TR {
   placa: string;
   data: string;
@@ -76,9 +78,10 @@ export default function Home() {
   };
 
   return (
-    <main className="w-screen flex flex-col items-center justify-center m-auto p-4">
+    <main className="w-screen flex flex-col items-center justify-center m-auto p-4 ">
+      <img className="max-w-96 mb-10" src="/logo.png" alt="" />
       {/* Formulário para adicionar uma nova TR */}
-      <div className="mb-4">
+      <div className="mb-4 max-w-7xl flex items-center justify-between ">
         <select
           value={placa}
           onChange={(e) => setPlaca(e.target.value)}
@@ -223,29 +226,31 @@ export default function Home() {
       </div>
 
       {/* Tabela para exibir as TRs adicionadas */}
-      <table className="max-w-7xl mb-4">
-        <thead>
-          <tr>
-            <th>Placa</th>
-            <th>Data</th>
-            <th>Hora</th>
-            <th>Motorista</th>
-          </tr>
-        </thead>
-        <tbody>
-          {trs.map((tr, index) => (
-            <tr key={index}>
-              <td>{tr.placa}</td>
-              <td>{formatarData(tr.data)}</td>
-              <td>{formatarHora(tr.hora)}</td>
-              <td>{tr.motorista}</td>
+      <div className="w-screen flex items-center justify-center m-auto">
+        <table className="w-11/12 text-center bg-indigo-100 rounded-lg">
+          <thead className="">
+            <tr className="">
+              <th>Placa</th>
+              <th>Data</th>
+              <th>Hora</th>
+              <th>Motorista</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody className="text-center">
+            {trs.map((tr, index) => (
+              <tr key={index} className="">
+                <td>{tr.placa}</td>
+                <td>{formatarData(tr.data)}</td>
+                <td>{formatarHora(tr.hora)}</td>
+                <td>{tr.motorista}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
 
       <button
-        className="bg-green-500 text-white p-2 rounded-lg ml-2"
+        className="bg-green-500 text-white p-2 rounded-lg ml-2 mt-10"
         onClick={handleGerarExcel}
       >
         Gerar Excel
