@@ -4,8 +4,6 @@ import { useState } from "react";
 import * as Excel from "exceljs";
 import { saveAs } from "file-saver";
 
-import logo from "../../src/app/assets/logo.png";
-
 interface TR {
   placa: string;
   data: string;
