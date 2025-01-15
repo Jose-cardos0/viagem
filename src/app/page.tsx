@@ -131,20 +131,56 @@ export default function Home() {
           className="p-2 border rounded-lg mx-2"
         >
           <option value="">Selecione um Motorista</option>
+          <option value="ALESSANDRO BENEDITO DE LIMA - 0414">
+            ALESSANDRO BENEDITO DE LIMA - 0414
+          </option>
+          <option value="ADELVAN DOS SANTOS SANTANA - 3046">
+            ADELVAN DOS SANTOS SANTANA - 3046
+          </option>
+          <option value="ALEFE OLIVEIRA DE SOUSA - 6742">
+            ALEFE OLIVEIRA DE SOUSA - 6742
+          </option>
+          <option value="ANTONIO FABIO SANTOS DANTAS - 6668">
+            ANTONIO FABIO SANTOS DANTAS - 6668
+          </option>
           <option value="BRENO OLIVEIRA DE ARAGAO - 9985">
             BRENO OLIVEIRA DE ARAGAO - 9985
           </option>
           <option value="CARLOS HENRIQUE BOMFIM SANTOS - 3053">
             CARLOS HENRIQUE BOMFIM SANTOS - 3053
           </option>
+          <option value="CARLOS HENRIQUE MOREIRA - 7125">
+            CARLOS HENRIQUE MOREIRA - 7125
+          </option>
           <option value="CARLOS ROBERTO VIEIRA DA SILVA - 5269">
             CARLOS ROBERTO VIEIRA DA SILVA - 5269
+          </option>
+          <option value="DOUGLENIR REIS DOS SANTOS - 4198">
+            DOUGLENIR REIS DOS SANTOS - 4198
           </option>
           <option value="EDMILSON RESENDE DOS SANTOS - 3166">
             EDMILSON RESENDE DOS SANTOS - 3166
           </option>
+          <option value="EDSON DE LIMA ALVES - 8145">
+            EDSON DE LIMA ALVES - 8145
+          </option>
+          <option value="EDUARDO SANTOS SOUSA - 7559">
+            EDUARDO SANTOS SOUSA - 7559
+          </option>
           <option value="EMERSON PEREIRA DE JESUS - 4123">
             EMERSON PEREIRA DE JESUS - 4123
+          </option>
+          <option value="EVANILTON LIMA DE OLIVEIRA - 7414">
+            EVANILTON LIMA DE OLIVEIRA - 7414
+          </option>
+          <option value="FLAVIO JOSE SANTOS DANTAS - 1974">
+            FLAVIO JOSE SANTOS DANTAS - 1974
+          </option>
+          <option value="GABRIEL SANTOS SANTANA - 1982">
+            GABRIEL SANTOS SANTANA - 1982
+          </option>
+          <option value="GERALDO PEREIRA DA COSTA - 4115">
+            GERALDO PEREIRA DA COSTA - 4115
           </option>
           <option value="GILDEVAN ALVES DE OLIVEIRA - 4206">
             GILDEVAN ALVES DE OLIVEIRA - 4206
@@ -155,6 +191,12 @@ export default function Home() {
           <option value="HEUDO AMARAL SANTOS JUNIOR - 2048">
             HEUDO AMARAL SANTOS JUNIOR - 2048
           </option>
+          <option value="IGOR SANTOS DE RESENDE - 6799">
+            IGOR SANTOS DE RESENDE - 6799
+          </option>
+          <option value="JADSON SANTOS DE SOUSA - 8434">
+            JADSON SANTOS DE SOUSA - 8434
+          </option>
           <option value="JHONI MARQUES DE ANDRADE - 6945">
             JHONI MARQUES DE ANDRADE - 6945
           </option>
@@ -164,14 +206,27 @@ export default function Home() {
           <option value="JOSE ANCELMO MOREIRA SANTANA - 5749">
             JOSE ANCELMO MOREIRA SANTANA - 5749
           </option>
+          <option value="JOSE DA SILVA - 7166">JOSE DA SILVA - 7166</option>
+          <option value="JOSE DIAS DA SILVA - 5453">
+            JOSE DIAS DA SILVA - 5453
+          </option>
           <option value="JOSE FABIO DE SANTANA SILVA - 9959">
             JOSE FABIO DE SANTANA SILVA - 9959
+          </option>
+          <option value="JOSE VITOR FERREIRA SANTOS - 5871">
+            JOSE VITOR FERREIRA SANTOS - 5871
           </option>
           <option value="LUCIO FLAVIO DOS SANTOS - 0751">
             LUCIO FLAVIO DOS SANTOS - 0751
           </option>
+          <option value="LUIZ ALEIXO MASCARENHAS JUNIOR - 0463">
+            LUIZ ALEIXO MASCARENHAS JUNIOR - 0463
+          </option>
           <option value="LUIZ MAGNO DE OLIVEIRA - 7158">
             LUIZ MAGNO DE OLIVEIRA - 7158
+          </option>
+          <option value="LUIZ VANDERLEI FARIAS SILVA - 7369">
+            LUIZ VANDERLEI FARIAS SILVA - 7369
           </option>
           <option value="MARCIO AZEVEDO SANTOS - 5913">
             MARCIO AZEVEDO SANTOS - 5913
@@ -179,8 +234,17 @@ export default function Home() {
           <option value="MARCIO JOSE NAZARE - 8152">
             MARCIO JOSE NAZARE - 8152
           </option>
+          <option value="MARCOS PAULO ALMEIDA FILHO - 4180">
+            MARCOS PAULO ALMEIDA FILHO - 4180
+          </option>
+          <option value="MIGUEL JUNIOR MELO DOS ANJOS - 0257">
+            MIGUEL JUNIOR MELO DOS ANJOS - 0257
+          </option>
           <option value="MIZAEL SANTOS PEREIRA - 5890">
             MIZAEL SANTOS PEREIRA - 5890
+          </option>
+          <option value="PEDRO LUIZ CORDEIRO DIVINO - 8091">
+            PEDRO LUIZ CORDEIRO DIVINO - 8091
           </option>
           <option value="RAFAEL VIEIRA DE SOUZA - 2910">
             RAFAEL VIEIRA DE SOUZA - 2910
@@ -188,30 +252,23 @@ export default function Home() {
           <option value="RODRIGO CORREIA SANTOS - 5764">
             RODRIGO CORREIA SANTOS - 5764
           </option>
+          <option value="THIAGO ALVES ARAUJO - 7542">
+            THIAGO ALVES ARAUJO - 7542
+          </option>
+          <option value="VALDIONE SANTOS SILVA - 5277">
+            VALDIONE SANTOS SILVA - 5277
+          </option>
           <option value="VANALDO BATISTA DA SILVA - 2614">
             VANALDO BATISTA DA SILVA - 2614
           </option>
           <option value="WEDSON DOS SANTOS DANTAS - 5756">
             WEDSON DOS SANTOS DANTAS - 5756
           </option>
+          <option value="WENDELL SANTANA CHAVES - 7634">
+            WENDELL SANTANA CHAVES - 7634
+          </option>
           <option value="WHODSON THIAGO SILVA BARRETO - 7141">
             WHODSON THIAGO SILVA BARRETO - 7141
-          </option>
-          <option value="ALEFE OLIVEIRA DE SOUSA - 6742">
-            ALEFE OLIVEIRA DE SOUSA - 6742
-          </option>
-          <option value="ANTONIO FABIO SANTOS DANTAS - 6668">
-            ANTONIO FABIO SANTOS DANTAS - 6668
-          </option>
-          <option value="FLAVIO JOSE SANTOS DANTAS - 1974">
-            FLAVIO JOSE SANTOS DANTAS - 1974
-          </option>
-          <option value="JOSE CARLOS COSTA DANTAS - 5137">
-            JOSE CARLOS COSTA DANTAS - 5137
-          </option>
-
-          <option value="LUIZ VANDERLEI FARIAS SILVA - 7369">
-            LUIZ VANDERLEI FARIAS SILVA - 7369
           </option>
         </select>
 
